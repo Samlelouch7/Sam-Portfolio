@@ -1,0 +1,425 @@
+{
+  "artist": {
+    "name": "Sam Parmar",
+    "title": "Animator, 3D Artist & Draftsman",
+    "tagline": "Crafting movement, spatial worlds, and hyper-detailed drawings with timeless discipline.",
+    "location": "Canada / US",
+    "bio": "I am an animator and visual craftsman operating across hand-drawn 2D animation, Blender 3D environment & character workflows, classical graphite draftsmanship, and physical timber fabrication. My work focuses on weight, anatomical truth, expressive timing, and meticulous physical texturing.",
+    "socials": [
+      {
+        "platform": "Instagram",
+        "handle": "@art.by.sam7",
+        "url": "https://www.instagram.com/art.by.sam7/",
+        "icon": "instagram",
+        "label": "Artwork & Sketches"
+      },
+      {
+        "platform": "YouTube",
+        "handle": "@samparmar1522",
+        "url": "https://www.youtube.com/@samparmar1522",
+        "icon": "youtube",
+        "label": "Animation & Process"
+      }
+    ],
+    "stats": [
+      {
+        "number": "24+",
+        "label": "Major Projects"
+      },
+      {
+        "number": "2D / 3D",
+        "label": "Animation Core"
+      },
+      {
+        "number": "100%",
+        "label": "Original Works"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "bow-arrow",
+      "title": "Bow & Arrow Mechanics",
+      "category": "2d-animation",
+      "source": "2D_Animations/bow and arrow final.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Action Mechanics",
+        "Arcs & Timing"
+      ],
+      "desc": "Character action study exploring tension, release dynamics, anticipation, and recoil follow-through.",
+      "mediaUrl": "assets/media/bow-arrow.mp4",
+      "thumbUrl": "assets/thumbs/bow-arrow.jpg"
+    },
+    {
+      "id": "personality-walk",
+      "title": "Personality Walk Cycle",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/Personality walk final .mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Character Locomotion",
+        "Weight & Attitude"
+      ],
+      "desc": "Full-body walk cycle emphasizing character attitude, hip tilt, spine articulation, and secondary drag.",
+      "mediaUrl": "assets/media/personality-walk.mp4",
+      "thumbUrl": "assets/thumbs/personality-walk.jpg"
+    },
+    {
+      "id": "heavy-lift",
+      "title": "Heavy Lift Body Mechanics",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/heavy lift final.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Weight Distribution",
+        "Squash & Stretch"
+      ],
+      "desc": "Physical weight study demonstrating counterbalancing, spine strain, leg drive, and force anticipation.",
+      "mediaUrl": "assets/media/heavy-lift.mp4",
+      "thumbUrl": "assets/thumbs/heavy-lift.jpg"
+    },
+    {
+      "id": "fluid-splash",
+      "title": "Fluid Splash & Impact VFX",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/1-381 Splash final.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D VFX",
+        "Fluid Dynamics",
+        "Hand-drawn Effects"
+      ],
+      "desc": "High-energy hand-drawn fluid splash animation tracking droplet dispersion, surface tension, and secondary ripples.",
+      "mediaUrl": "assets/media/fluid-splash.mp4",
+      "thumbUrl": "assets/thumbs/fluid-splash.jpg"
+    },
+    {
+      "id": "secondary-hair-motion",
+      "title": "Secondary Hair Dynamics",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/hair flow.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Secondary Motion",
+        "Wave Principle"
+      ],
+      "desc": "Fluid overlapping action study demonstrating wave action, drag, and inertia through flowing hair strands.",
+      "mediaUrl": "assets/media/secondary-hair-motion.mp4",
+      "thumbUrl": "assets/thumbs/secondary-hair-motion.jpg"
+    },
+    {
+      "id": "fire-vfx",
+      "title": "Hand-Drawn Fire Dynamics",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/Fire 1 .mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D VFX",
+        "Organic Motion",
+        "Morphology"
+      ],
+      "desc": "Hand-animated flame study emphasizing volume preservation, dissipation timing, and rhythmic licking curves.",
+      "mediaUrl": "assets/media/fire-vfx.mp4",
+      "thumbUrl": "assets/thumbs/fire-vfx.jpg"
+    },
+    {
+      "id": "fabric-flow",
+      "title": "Cloth & Fabric Flow",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/dress.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Cloth Simulation",
+        "Overlap"
+      ],
+      "desc": "Investigation of fabric mass, breeze interaction, and overlapping wave motion in clothing.",
+      "mediaUrl": "assets/media/fabric-flow.mp4",
+      "thumbUrl": "assets/thumbs/fabric-flow.jpg"
+    },
+    {
+      "id": "cinematic-sequence",
+      "title": "Story Sequence & Scene Cuts",
+      "category": "2d-animation",
+      "source": "fall 2026/2d/Final Project/untitled folder/Untitled 3 - all shots.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "2D Animation",
+        "Cinematography",
+        "Multi-Shot"
+      ],
+      "desc": "Multi-camera sequence exploring framing, continuous character movement across shot transitions, and dramatic pacing.",
+      "mediaUrl": "assets/media/cinematic-sequence.mp4",
+      "thumbUrl": "assets/thumbs/cinematic-sequence.jpg"
+    },
+    {
+      "id": "sci-fi-cyberpunk",
+      "title": "Cyberpunk Neon District",
+      "category": "3d-cgi",
+      "source": "Blender assignments/scene scifi/final front right rendered light2  .png",
+      "type": "image",
+      "year": "2026",
+      "tags": [
+        "Blender Cycles",
+        "Lighting & Shading",
+        "Environment Art"
+      ],
+      "desc": "Atmospheric 3D cyberpunk street environment featuring volumetric fog, neon spill, emissive shaders, and distressed architectural texturing.",
+      "mediaUrl": "assets/media/sci-fi-cyberpunk.png",
+      "thumbUrl": "assets/thumbs/sci-fi-cyberpunk.jpg"
+    },
+    {
+      "id": "sci-fi-alley-lighting",
+      "title": "Cyberpunk Lighting Pass",
+      "category": "3d-cgi",
+      "source": "Blender assignments/scene scifi/final front right rendered light .png",
+      "type": "image",
+      "year": "2026",
+      "tags": [
+        "Blender",
+        "Color Grading",
+        "Lighting Study"
+      ],
+      "desc": "High-contrast lighting breakdown balancing warm sodium street lamps against cool cyan accent fills.",
+      "mediaUrl": "assets/media/sci-fi-alley-lighting.png",
+      "thumbUrl": "assets/thumbs/sci-fi-alley-lighting.jpg"
+    },
+    {
+      "id": "3d-character-walk",
+      "title": "3D Bipedal Walk Cycle",
+      "category": "3d-cgi",
+      "source": "fall 2026/3d/walk/Walk final .mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "3D Animation",
+        "Blender Rigging",
+        "Locomotion"
+      ],
+      "desc": "3D character walk cycle exploring pelvis translation, foot rolls, clavicle counterbalancing, and clean weight shifts.",
+      "mediaUrl": "assets/media/3d-character-walk.mp4",
+      "thumbUrl": "assets/thumbs/3d-character-walk.jpg"
+    },
+    {
+      "id": "ball-tail-overlap",
+      "title": "Ball & Tail Overlap Study",
+      "category": "3d-cgi",
+      "source": "fall 2026/3d/Ball and tail first pass0001-0104 final.mp4",
+      "type": "video",
+      "year": "2026",
+      "tags": [
+        "3D Animation",
+        "Follow-Through",
+        "Principles"
+      ],
+      "desc": "Classical animation principle study rendered in 3D: successive breaking of joints and organic tail trailing.",
+      "mediaUrl": "assets/media/ball-tail-overlap.mp4",
+      "thumbUrl": "assets/thumbs/ball-tail-overlap.jpg"
+    },
+    {
+      "id": "3d-cinematic-flythrough",
+      "title": "Atmospheric 3D Scene Study",
+      "category": "3d-cgi",
+      "source": "Blender assignments/final/Final video[0001-0240].mp4",
+      "type": "video",
+      "year": "2025",
+      "tags": [
+        "3D Animation",
+        "Camera Motion",
+        "Atmosphere"
+      ],
+      "desc": "Cinematic camera choreography through a textured 3D landscape with physical depth of field.",
+      "mediaUrl": "assets/media/3d-cinematic-flythrough.mp4",
+      "thumbUrl": "assets/thumbs/3d-cinematic-flythrough.jpg"
+    },
+    {
+      "id": "character-sculpt-roar",
+      "title": "Character Expression: Primal Roar",
+      "category": "3d-cgi",
+      "source": "fall 2026/3d/final pose/Roar front.png",
+      "type": "image",
+      "year": "2026",
+      "tags": [
+        "3D Sculpting",
+        "Facial Topology",
+        "Expression"
+      ],
+      "desc": "Character facial modeling study focusing on dynamic facial muscular deformation, jaw depression, and expressive silhouette.",
+      "mediaUrl": "assets/media/character-sculpt-roar.png",
+      "thumbUrl": "assets/thumbs/character-sculpt-roar.jpg"
+    },
+    {
+      "id": "character-sculpt-shock",
+      "title": "Character Expression: Shock",
+      "category": "3d-cgi",
+      "source": "fall 2026/3d/final pose/Shoked front.png",
+      "type": "image",
+      "year": "2026",
+      "tags": [
+        "3D Sculpting",
+        "Expression",
+        "Posing"
+      ],
+      "desc": "Expressive character key pose exploring eye-line elevation, brow furrowing, and asymmetrical mouth tension.",
+      "mediaUrl": "assets/media/character-sculpt-shock.png",
+      "thumbUrl": "assets/thumbs/character-sculpt-shock.jpg"
+    },
+    {
+      "id": "surreal-hand-water",
+      "title": "Submersion & Tension (Surrealist Study)",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/jono dry inspired/IMG20211014125315.jpg",
+      "type": "image",
+      "year": "2022",
+      "tags": [
+        "Graphite on Paper",
+        "Surrealism",
+        "Hyperrealism"
+      ],
+      "desc": "Intricate graphite drawing exploring skin folds, water displacement, micro-reflections, and dark value saturation inspired by Jono Dry.",
+      "mediaUrl": "assets/media/surreal-hand-water.jpg",
+      "thumbUrl": "assets/thumbs/surreal-hand-water.jpg"
+    },
+    {
+      "id": "metamorphosis-sketch",
+      "title": "Metamorphosis in Lead",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/jono dry inspired/PXL_20221203_232656865 (1).jpg",
+      "type": "image",
+      "year": "2022",
+      "tags": [
+        "Graphite Pencil",
+        "Value Structure",
+        "Fine Art"
+      ],
+      "desc": "High-contrast graphite master rendering with seamless blends from velvety 8B blacks to clean paper highlights.",
+      "mediaUrl": "assets/media/metamorphosis-sketch.jpg",
+      "thumbUrl": "assets/thumbs/metamorphosis-sketch.jpg"
+    },
+    {
+      "id": "anatomical-hands",
+      "title": "Anatomical Study: Grip & Form",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/original/PXL_20241013_053909136.RAW-01.COVER (1).jpg",
+      "type": "image",
+      "year": "2024",
+      "tags": [
+        "Graphite on Bristol",
+        "Anatomy",
+        "Texture"
+      ],
+      "desc": "Deep study of hand anatomy, tendon articulation, bone landmarks, and skin pore texturing in graphite.",
+      "mediaUrl": "assets/media/anatomical-hands.jpg",
+      "thumbUrl": "assets/thumbs/anatomical-hands.jpg"
+    },
+    {
+      "id": "classical-portraiture",
+      "title": "Classical Portraiture Study",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/portrait/PXL_20230730_035911183.jpg",
+      "type": "image",
+      "year": "2023",
+      "tags": [
+        "Traditional Portrait",
+        "Chiaroscuro",
+        "Graphite"
+      ],
+      "desc": "Portrait study in graphite utilizing classical chiaroscuro lighting, subtle planes of the face, and expressive eyes.",
+      "mediaUrl": "assets/media/classical-portraiture.jpg",
+      "thumbUrl": "assets/thumbs/classical-portraiture.jpg"
+    },
+    {
+      "id": "monumental-lead-study",
+      "title": "Tonal Synthesis & Texture",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/original/PXL_20260102_223115885.RAW-01 (2).jpg",
+      "type": "image",
+      "year": "2026",
+      "tags": [
+        "Graphite & Charcoal",
+        "Tonal Mastery",
+        "Realism"
+      ],
+      "desc": "Complex tonal rendering combining graphite and carbon for deep optical densities and tactile surface variance.",
+      "mediaUrl": "assets/media/monumental-lead-study.jpg",
+      "thumbUrl": "assets/thumbs/monumental-lead-study.jpg"
+    },
+    {
+      "id": "figure-portrait-study",
+      "title": "Intimate Gaze: Charcoal & Lead",
+      "category": "fine-art",
+      "source": "Artwork/Graphite drawings/portrait/IMG20211014125716.jpg",
+      "type": "image",
+      "year": "2021",
+      "tags": [
+        "Portraiture",
+        "Charcoal & Graphite",
+        "Lighting"
+      ],
+      "desc": "Delicate rendering capturing quiet human expression, hair fiber delineation, and soft edge control.",
+      "mediaUrl": "assets/media/figure-portrait-study.jpg",
+      "thumbUrl": "assets/thumbs/figure-portrait-study.jpg"
+    },
+    {
+      "id": "woodcraft-joinery-01",
+      "title": "Handcrafted Timber Sculpture & Form",
+      "category": "physical-craft",
+      "source": "Artwork/Woodwork/PXL_20250718_192651463.jpg",
+      "type": "image",
+      "year": "2025",
+      "tags": [
+        "Fine Woodworking",
+        "Natural Grain",
+        "Tactile Craft"
+      ],
+      "desc": "Precision joinery and organic contouring celebrating natural wood grain, chatoyancy, and hand-rubbed oil finish.",
+      "mediaUrl": "assets/media/woodcraft-joinery-01.jpg",
+      "thumbUrl": "assets/thumbs/woodcraft-joinery-01.jpg"
+    },
+    {
+      "id": "woodcraft-joinery-02",
+      "title": "Bespoke Hardwood Construction",
+      "category": "physical-craft",
+      "source": "Artwork/Woodwork/PXL_20250808_163818549.jpg",
+      "type": "image",
+      "year": "2025",
+      "tags": [
+        "Wood Craft",
+        "Joinery",
+        "Functional Art"
+      ],
+      "desc": "Hand-planed hardwood structure detailing edge bevels, dimensional stability, and durable traditional craftsmanship.",
+      "mediaUrl": "assets/media/woodcraft-joinery-02.jpg",
+      "thumbUrl": "assets/thumbs/woodcraft-joinery-02.jpg"
+    },
+    {
+      "id": "digital-concept-01",
+      "title": "Atmospheric Digital Painting",
+      "category": "fine-art",
+      "source": "Artwork/digital /Project (20230815095349).jpg",
+      "type": "image",
+      "year": "2023",
+      "tags": [
+        "Digital Painting",
+        "Atmosphere",
+        "Color Harmony"
+      ],
+      "desc": "Expressive digital brushwork balancing loose atmospheric suggestion with tight focal definition.",
+      "mediaUrl": "assets/media/digital-concept-01.jpg",
+      "thumbUrl": "assets/thumbs/digital-concept-01.jpg"
+    }
+  ]
+}
