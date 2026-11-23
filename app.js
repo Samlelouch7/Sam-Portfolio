@@ -836,6 +836,20 @@
         }
       });
     });
+
+    const collageItems = document.querySelectorAll('.collage-item');
+    collageItems.forEach(item => {
+      const idx = parseInt(item.getAttribute('data-index'), 10);
+      if (!isNaN(idx)) {
+        item.addEventListener('click', () => openModal(idx));
+        item.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openModal(idx);
+          }
+        });
+      }
+    });
   }
 
   // Lightbox Modal
