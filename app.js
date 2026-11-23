@@ -674,11 +674,54 @@
 
   function init() {
     setupTabs();
+    setupStackDeck();
     setupCards();
     setupModal();
     setupSharing();
     setupFab();
     setupStickyObserver();
+  }
+
+  // Interactive 3D Section Stack Deck — Click to Expand Section
+  function setupStackDeck() {
+    const stackCards = document.querySelectorAll('.stack-card');
+    if (!stackCards.length) return;
+
+    stackCards.forEach(card => {
+      const handleExpand = (e) => {
+        if (e) e.preventDefault();
+        const sectionId = card.getAttribute('data-section');
+        if (!sectionId) return;
+
+        // Visual click feedback: expansion pulse
+        card.classList.add('is-expanding');
+        setTimeout(() => {
+          card.classList.remove('is-expanding');
+        }, 450);
+
+        // Find the corresponding section tab button and trigger full expansion
+        const matchingTabBtn = document.querySelector(`.tab-btn[data-tab="${sectionId}"]`);
+        if (matchingTabBtn) {
+          matchingTabBtn.click();
+        } else {
+          // Direct smooth scroll fallback
+          const targetSec = document.getElementById(sectionId);
+          if (targetSec) {
+            const topBarHeight = (stickyTabNav ? stickyTabNav.offsetHeight : 50) + 75;
+            const targetTop = targetSec.getBoundingClientRect().top + window.scrollY - topBarHeight;
+            window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+          }
+        }
+      };
+
+      card.addEventListener('click', handleExpand);
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleExpand(e);
+        }
+      });
+    });
   }
 
   function setupFab() {
@@ -835,20 +878,6 @@
           openModal(idx);
         }
       });
-    });
-
-    const collageItems = document.querySelectorAll('.collage-card, .collage-item');
-    collageItems.forEach(item => {
-      const idx = parseInt(item.getAttribute('data-index'), 10);
-      if (!isNaN(idx)) {
-        item.addEventListener('click', () => openModal(idx));
-        item.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openModal(idx);
-          }
-        });
-      }
     });
   }
 

@@ -65,16 +65,83 @@
           </div>
         </div>
 
-        <!-- Visual Header Collage (Bow & Arrow, Self Centered, Dialoge Emily) -->
-        <div class="hero-collage" aria-label="Featured Works Showcase">
-          <div class="collage-card" role="button" tabindex="0" data-index="0" aria-label="Bow and Arrow">
-            <video src="assets/media/bow and arrow final.mp4" autoplay loop muted playsinline preload="auto" class="collage-media"></video>
+        <!-- Interactive 3D Section Stack Deck (Click any card to expand that section) -->
+        <div class="hero-stack-container" id="heroStackContainer" aria-label="Interactive Section Portfolio Stack">
+          <div class="stack-prompt">
+            <span class="stack-sparkle">✦</span>
+            <span class="stack-prompt-text">Interactive Section Deck — Tap any card to expand</span>
           </div>
-          <div class="collage-card" role="button" tabindex="0" data-index="27" aria-label="Self Centered">
-            <img src="assets/media/Self Centered.jpeg" alt="" loading="eager" class="collage-media" />
-          </div>
-          <div class="collage-card" role="button" tabindex="0" data-index="7" aria-label="Dialoge Emily">
-            <video src="assets/media/Dialoge Emily0001-0067.mp4" autoplay loop muted playsinline preload="auto" class="collage-media"></video>
+
+          <div class="stack-deck" id="stackDeck" role="region" aria-label="Featured Section Cards Stack">
+            <!-- 1. 2D Animation -->
+            <div class="stack-card" role="button" tabindex="0" data-section="2d-animation" aria-label="Expand 2D Animation section">
+              <div class="stack-card-inner">
+                <video src="assets/media/bow and arrow final.mp4" autoplay loop muted playsinline preload="auto" class="stack-media"></video>
+                <div class="stack-card-glass">
+                  <div class="stack-pill"><span class="stack-pill-dot"></span>2D Animation</div>
+                  <div class="stack-card-meta">
+                    <h3 class="stack-card-title">2D Animation</h3>
+                    <span class="stack-card-action">5 Works • Expand <span class="arrow">↓</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. 3D Motion & Modeling -->
+            <div class="stack-card" role="button" tabindex="0" data-section="3d" aria-label="Expand 3D Motion and Modeling section">
+              <div class="stack-card-inner">
+                <video src="assets/media/Dialoge Emily0001-0067.mp4" autoplay loop muted playsinline preload="auto" class="stack-media"></video>
+                <div class="stack-card-glass">
+                  <div class="stack-pill"><span class="stack-pill-dot"></span>3D Motion</div>
+                  <div class="stack-card-meta">
+                    <h3 class="stack-card-title">3D Animation</h3>
+                    <span class="stack-card-action">11 Works • Expand <span class="arrow">↓</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Pencil & Digital Art (Centerpiece) -->
+            <div class="stack-card center-card" role="button" tabindex="0" data-section="pencil-digital" aria-label="Expand Pencil and Digital Artwork section">
+              <div class="stack-card-inner">
+                <img src="assets/media/Self Centered.jpeg" alt="Self Centered" loading="eager" class="stack-media" />
+                <div class="stack-card-glass">
+                  <div class="stack-pill"><span class="stack-pill-dot"></span>Pencil & Digital</div>
+                  <div class="stack-card-meta">
+                    <h3 class="stack-card-title">Pencil & Digital</h3>
+                    <span class="stack-card-action">31 Works • Expand <span class="arrow">↓</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Woodwork -->
+            <div class="stack-card" role="button" tabindex="0" data-section="wood" aria-label="Expand Woodwork section">
+              <div class="stack-card-inner">
+                <img src="assets/media/PXL_20250812_050723986.NIGHT.RAW-01.COVER.jpg" alt="Wood Carving Craft" loading="lazy" class="stack-media" />
+                <div class="stack-card-glass">
+                  <div class="stack-pill"><span class="stack-pill-dot"></span>Woodcraft</div>
+                  <div class="stack-card-meta">
+                    <h3 class="stack-card-title">Wood Carving</h3>
+                    <span class="stack-card-action">3 Works • Expand <span class="arrow">↓</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. YouTube -->
+            <div class="stack-card" role="button" tabindex="0" data-section="youtube" aria-label="Expand YouTube section">
+              <div class="stack-card-inner">
+                <img src="assets/thumbs/yt_S4OvkfncqCo.jpg" alt="YouTube Channel Showcase" loading="lazy" class="stack-media" />
+                <div class="stack-card-glass">
+                  <div class="stack-pill"><span class="stack-pill-dot"></span>YouTube</div>
+                  <div class="stack-card-meta">
+                    <h3 class="stack-card-title">YouTube Videos</h3>
+                    <span class="stack-card-action">20 Works • Expand <span class="arrow">↓</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
