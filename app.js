@@ -869,10 +869,21 @@
       const vid = document.createElement('video');
       vid.src = item.mediaUrl;
       vid.controls = true;
-      vid.autoplay = true;
       vid.loop = true;
       vid.playsInline = true;
+      vid.muted = false;
+      vid.volume = 1.0;
       modalStage.appendChild(vid);
+
+      const playPromise = vid.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          // If browser restricts unmuted autoplay, mute and resume play with controls
+          console.warn('Unmuted autoplay prevented by browser policy:', err);
+          vid.muted = true;
+          vid.play().catch(() => {});
+        });
+      }
     } else {
       const img = document.createElement('img');
       img.src = item.mediaUrl;
