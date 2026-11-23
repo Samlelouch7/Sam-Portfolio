@@ -404,12 +404,30 @@
   const modalCloseBtn = document.getElementById('modalCloseBtn');
   const copyBtn = document.getElementById('copyBtn');
   const toastNotice = document.getElementById('toastNotice');
+  const fabBtn = document.getElementById('returnToTopFab');
 
   function init() {
     setupTabs();
     setupCards();
     setupModal();
     setupSharing();
+    setupFab();
+  }
+
+  function setupFab() {
+    if (!fabBtn) return;
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 350) {
+        fabBtn.classList.add('visible');
+      } else {
+        fabBtn.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    fabBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   }
 
   // Tab Filtering & Switching
