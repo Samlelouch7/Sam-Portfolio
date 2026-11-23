@@ -837,7 +837,7 @@
       });
     });
 
-    const collageItems = document.querySelectorAll('.collage-item');
+    const collageItems = document.querySelectorAll('.collage-card, .collage-item');
     collageItems.forEach(item => {
       const idx = parseInt(item.getAttribute('data-index'), 10);
       if (!isNaN(idx)) {
