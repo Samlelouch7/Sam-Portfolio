@@ -332,32 +332,74 @@ body::before {
 }
 
 /* ==========================================================================
-   M3 EXPRESSIVE SEGMENTED BUTTONS / TAB FILTER BAR
+   M3 EXPRESSIVE SEGMENTED BUTTONS / PERSISTENT STICKY TAB FILTER BAR
    ========================================================================== */
-.tab-filter-bar {
-  margin-top: 2rem;
+.sticky-tab-nav-wrapper {
   position: sticky;
   top: 4.75rem;
-  z-index: 90;
-  padding: 0.25rem 0;
+  z-index: 95;
+  padding: 0.5rem 0;
+  pointer-events: none;
+  transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-emphasized);
+}
+
+.sticky-tab-nav-wrapper .container {
+  pointer-events: auto;
+}
+
+.sticky-tab-nav-wrapper.is-scrolled .tab-buttons {
+  box-shadow: var(--md-sys-elevation-3);
+  border-color: rgba(173, 198, 255, 0.25);
+  background: rgba(25, 27, 32, 0.96);
+}
+
+.tab-filter-bar {
+  margin: 0;
+  padding: 0;
 }
 
 .tab-buttons {
+  position: relative;
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(25, 27, 32, 0.9);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  padding: 0.4rem;
+  gap: 0.35rem;
+  background: rgba(25, 27, 32, 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  padding: 0.35rem;
   border-radius: var(--md-sys-shape-corner-full);
   border: 1px solid var(--md-sys-color-outline-variant);
   box-shadow: var(--md-sys-elevation-2);
+  transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-emphasized);
+}
+
+/* Animated Sliding Active Indicator Pill */
+.tab-active-pill {
+  position: absolute;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  left: 0;
+  border-radius: var(--md-sys-shape-corner-full);
+  background: var(--md-sys-color-primary);
+  box-shadow: 0 4px 16px rgba(173, 198, 255, 0.35);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: 
+    transform 0.34s cubic-bezier(0.2, 0.0, 0, 1.0),
+    width 0.34s cubic-bezier(0.2, 0.0, 0, 1.0),
+    opacity 0.2s ease;
+}
+
+.tab-buttons.pill-ready .tab-active-pill {
+  opacity: 1;
 }
 
 /* Individual Filter Chips */
 .tab-btn {
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -370,13 +412,19 @@ body::before {
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all var(--md-sys-motion-duration-short) var(--md-sys-motion-easing-emphasized);
+  transition: 
+    color 0.2s ease,
+    transform 0.15s var(--md-sys-motion-easing-emphasized),
+    background-color 0.18s ease;
   white-space: nowrap;
 }
 
 .tab-btn:hover {
-  background: var(--md-sys-state-hover);
   color: var(--md-sys-color-on-surface);
+}
+
+.tab-btn:active {
+  transform: scale(0.96);
 }
 
 .tab-btn:focus-visible {
@@ -386,9 +434,13 @@ body::before {
 
 /* Active Segment / Chip */
 .tab-btn.active {
-  background: var(--md-sys-color-primary);
   color: var(--md-sys-color-on-primary);
   font-weight: 700;
+}
+
+/* Fallback if pill is not yet initialized */
+.tab-buttons:not(.pill-ready) .tab-btn.active {
+  background: var(--md-sys-color-primary);
   box-shadow: 0 4px 14px rgba(173, 198, 255, 0.35);
 }
 
@@ -399,7 +451,7 @@ body::before {
   border-radius: var(--md-sys-shape-corner-full);
   background: rgba(255, 255, 255, 0.08);
   color: inherit;
-  transition: background var(--md-sys-motion-duration-short);
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .tab-btn.active .tab-count {
@@ -408,6 +460,8 @@ body::before {
 }
 
 .tab-btn-link {
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   padding: 0.625rem 1.125rem;
@@ -424,6 +478,7 @@ body::before {
 .tab-btn-link:hover {
   background: var(--md-sys-color-secondary-container);
   color: var(--md-sys-color-on-secondary-container);
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================
@@ -432,7 +487,27 @@ body::before {
 .portfolio-section {
   padding-top: 3.5rem;
   margin-bottom: 3rem;
+  scroll-margin-top: 8rem;
   transition: opacity var(--md-sys-motion-duration-medium) var(--md-sys-motion-easing-emphasized);
+}
+
+.portfolio-section.tab-hidden {
+  display: none !important;
+}
+
+.portfolio-section.tab-enter {
+  animation: m3SectionEnter 0.36s cubic-bezier(0.05, 0.7, 0.1, 1.0) backwards;
+}
+
+@keyframes m3SectionEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(22px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .portfolio-section.tab-hidden {
@@ -1171,6 +1246,10 @@ body::before {
   .site-header {
     top: 0.5rem;
     padding: 0 0.5rem;
+  }
+
+  .sticky-tab-nav-wrapper {
+    top: 3.5rem;
   }
   
   .nav-inner {

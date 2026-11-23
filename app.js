@@ -405,6 +405,11 @@
   const copyBtn = document.getElementById('copyBtn');
   const toastNotice = document.getElementById('toastNotice');
   const fabBtn = document.getElementById('returnToTopFab');
+  const stickyTabNav = document.getElementById('stickyTabNav');
+  const tabButtonsContainer = document.querySelector('.tab-buttons');
+  const tabActivePill = document.getElementById('tabActivePill');
+
+  let currentActiveTabBtn = document.querySelector('.tab-btn.active') || tabButtons[0];
 
   function init() {
     setupTabs();
@@ -412,6 +417,7 @@
     setupModal();
     setupSharing();
     setupFab();
+    setupStickyObserver();
   }
 
   function setupFab() {
@@ -430,8 +436,57 @@
     });
   }
 
-  // Tab Filtering & Switching
+  // Sticky Tab Bar Scroll Elevation
+  function setupStickyObserver() {
+    if (!stickyTabNav) return;
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        stickyTabNav.classList.add('is-scrolled');
+      } else {
+        stickyTabNav.classList.remove('is-scrolled');
+      }
+    }, { passive: true });
+  }
+
+  // Sliding Indicator Pill Animation
+  function updateActivePill(targetBtn, smooth = true) {
+    if (!tabActivePill || !targetBtn || !tabButtonsContainer) return;
+
+    if (!smooth) {
+      tabActivePill.style.transition = 'none';
+    } else {
+      tabActivePill.style.transition = 'transform 0.32s cubic-bezier(0.2, 0.0, 0, 1.0), width 0.32s cubic-bezier(0.2, 0.0, 0, 1.0), opacity 0.2s ease';
+    }
+
+    const btnLeft = targetBtn.offsetLeft;
+    const btnWidth = targetBtn.offsetWidth;
+
+    tabActivePill.style.transform = 'translate3d(' + btnLeft + 'px, 0, 0)';
+    tabActivePill.style.width = btnWidth + 'px';
+    tabButtonsContainer.classList.add('pill-ready');
+
+    // On mobile / horizontally scrolling tab bar, keep active tab in view
+    if (tabButtonsContainer.scrollWidth > tabButtonsContainer.clientWidth) {
+      const scrollTarget = btnLeft - (tabButtonsContainer.clientWidth / 2) + (btnWidth / 2);
+      tabButtonsContainer.scrollTo({ left: Math.max(0, scrollTarget), behavior: 'smooth' });
+    }
+  }
+
+  // Tab Filtering & Switching with Smooth Transitions
   function setupTabs() {
+    // Position the pill on load
+    if (currentActiveTabBtn) {
+      // Small timeout to allow font rendering / layout settling
+      setTimeout(() => updateActivePill(currentActiveTabBtn, false), 50);
+    }
+
+    // Window resize handler to keep pill perfectly positioned
+    window.addEventListener('resize', () => {
+      if (currentActiveTabBtn) {
+        updateActivePill(currentActiveTabBtn, false);
+      }
+    }, { passive: true });
+
     tabButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         const targetTab = btn.getAttribute('data-tab');
@@ -442,13 +497,23 @@
         });
         btn.classList.add('active');
         btn.setAttribute('aria-selected', 'true');
+        currentActiveTabBtn = btn;
 
+        // Smoothly animate the sliding pill to the clicked tab
+        updateActivePill(btn, true);
+
+        // Filter sections with smooth entrance animation
         sections.forEach(sec => {
           const secId = sec.getAttribute('data-section-id');
           if (targetTab === 'all' || secId === targetTab) {
             sec.classList.remove('tab-hidden');
+            sec.classList.remove('tab-enter');
+            // Trigger reflow to restart entrance animation
+            void sec.offsetWidth;
+            sec.classList.add('tab-enter');
           } else {
             sec.classList.add('tab-hidden');
+            sec.classList.remove('tab-enter');
           }
         });
 
@@ -456,11 +521,22 @@
         if (targetTab !== 'all') {
           const targetSec = document.getElementById(targetTab);
           if (targetSec) {
-            targetSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const topBarHeight = (stickyTabNav ? stickyTabNav.offsetHeight : 50) + 75;
+            const targetTop = targetSec.getBoundingClientRect().top + window.scrollY - topBarHeight;
+            window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
           }
         }
       });
     });
+
+    // Check if initial URL has a section hash like #pencil-digital or #3d
+    const initialHash = window.location.hash.replace('#', '');
+    if (initialHash) {
+      const matchingBtn = document.querySelector('.tab-btn[data-tab="' + initialHash + '"]');
+      if (matchingBtn) {
+        matchingBtn.click();
+      }
+    }
   }
 
   // Media Cards (Hover Play + Click)

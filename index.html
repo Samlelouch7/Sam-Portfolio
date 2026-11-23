@@ -72,10 +72,15 @@
             </p>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Interactive Category Tab Bar -->
+    <!-- Persistent Sticky Sections Tab Bar (Always Stays Visible on Scroll) -->
+    <div class="sticky-tab-nav-wrapper" id="stickyTabNav">
+      <div class="container">
         <div class="tab-filter-bar">
           <div class="tab-buttons" role="tablist" aria-label="Portfolio Section Tabs">
+            <div class="tab-active-pill" id="tabActivePill" aria-hidden="true"></div>
             <button class="tab-btn active" data-tab="all" role="tab" aria-selected="true">
               All Sections <span class="tab-count">(50)</span>
             </button>
@@ -95,7 +100,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Sections Pre-rendered Directly in HTML for 100% Instant Reliability -->
     <div id="sectionsContainer" class="container">
