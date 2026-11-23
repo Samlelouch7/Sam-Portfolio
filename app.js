@@ -388,6 +388,267 @@
     "section": "pencil-digital",
     "is_inspired": false
   }
+,
+{
+    "title": "Holding the Luck | Drawing Process | Sam Parmar",
+    "type": "youtube",
+    "videoId": "S4OvkfncqCo",
+    "duration": "2:51",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=S4OvkfncqCo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/S4OvkfncqCo",
+    "thumbUrl": "assets/thumbs/yt_S4OvkfncqCo.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/S4OvkfncqCo/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "Eye tutorial | Drawing | Art",
+    "type": "youtube",
+    "videoId": "TZvtSmOazdQ",
+    "duration": "5:54",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=TZvtSmOazdQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/TZvtSmOazdQ",
+    "thumbUrl": "assets/thumbs/yt_TZvtSmOazdQ.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/TZvtSmOazdQ/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "AUGUST",
+    "type": "youtube",
+    "videoId": "PAp_J2vjLpI",
+    "duration": "1:55",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=PAp_J2vjLpI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/PAp_J2vjLpI",
+    "thumbUrl": "assets/thumbs/yt_PAp_J2vjLpI.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/PAp_J2vjLpI/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "GUMMY BEAR AND THE EYE",
+    "type": "youtube",
+    "videoId": "28-4VOT8ZKk",
+    "duration": "1:29",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=28-4VOT8ZKk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/28-4VOT8ZKk",
+    "thumbUrl": "assets/thumbs/yt_28-4VOT8ZKk.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/28-4VOT8ZKk/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "How I Draw Time Lapse DOMINIUM",
+    "type": "youtube",
+    "videoId": "ZxlQLFIOcHQ",
+    "duration": "2:21",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=ZxlQLFIOcHQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZxlQLFIOcHQ",
+    "thumbUrl": "assets/thumbs/yt_ZxlQLFIOcHQ.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/ZxlQLFIOcHQ/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "MY MOST FAVOURITE DRAWING",
+    "type": "youtube",
+    "videoId": "Fm8u6m1Phs0",
+    "duration": "0:15",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=Fm8u6m1Phs0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Fm8u6m1Phs0",
+    "thumbUrl": "assets/thumbs/yt_Fm8u6m1Phs0.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/Fm8u6m1Phs0/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "SELF CENTERED | SAM PARMAR",
+    "type": "youtube",
+    "videoId": "6RneRNUUBr4",
+    "duration": "2:42",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=6RneRNUUBr4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6RneRNUUBr4",
+    "thumbUrl": "assets/thumbs/yt_6RneRNUUBr4.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/6RneRNUUBr4/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "WRAPPED IN TRADITION time lapse",
+    "type": "youtube",
+    "videoId": "wbmbCBVOmVY",
+    "duration": "5:35",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=wbmbCBVOmVY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wbmbCBVOmVY",
+    "thumbUrl": "assets/thumbs/yt_wbmbCBVOmVY.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/wbmbCBVOmVY/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "My Favourite Drawings #shorts",
+    "type": "youtube",
+    "videoId": "qgq3nURNcX8",
+    "duration": "0:09",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=qgq3nURNcX8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/qgq3nURNcX8",
+    "thumbUrl": "assets/thumbs/yt_qgq3nURNcX8.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/qgq3nURNcX8/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "pencil on paper drawing time lapse #shorts",
+    "type": "youtube",
+    "videoId": "fQmai-MQrWk",
+    "duration": "0:37",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=fQmai-MQrWk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/fQmai-MQrWk",
+    "thumbUrl": "assets/thumbs/yt_fQmai-MQrWk.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/fQmai-MQrWk/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "HONEY drawing time-lapse @jonodry",
+    "type": "youtube",
+    "videoId": "Iv3n6et5wqo",
+    "duration": "2:55",
+    "is_short": false,
+    "is_inspired": true,
+    "mediaUrl": "https://www.youtube.com/watch?v=Iv3n6et5wqo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Iv3n6et5wqo",
+    "thumbUrl": "assets/thumbs/yt_Iv3n6et5wqo.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/Iv3n6et5wqo/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "PUPIL time-lapse video DRAWING",
+    "type": "youtube",
+    "videoId": "EPlZ-Iogswo",
+    "duration": "4:24",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=EPlZ-Iogswo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EPlZ-Iogswo",
+    "thumbUrl": "assets/thumbs/yt_EPlZ-Iogswo.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/EPlZ-Iogswo/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "EREN YEAGER SPEED DRAWING",
+    "type": "youtube",
+    "videoId": "AW63mzd03tU",
+    "duration": "1:34",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=AW63mzd03tU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/AW63mzd03tU",
+    "thumbUrl": "assets/thumbs/yt_AW63mzd03tU.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/AW63mzd03tU/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "SOLITUDE @jonodry",
+    "type": "youtube",
+    "videoId": "-wFT0fRE1aY",
+    "duration": "3:31",
+    "is_short": false,
+    "is_inspired": true,
+    "mediaUrl": "https://www.youtube.com/watch?v=-wFT0fRE1aY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-wFT0fRE1aY",
+    "thumbUrl": "assets/thumbs/yt_-wFT0fRE1aY.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/-wFT0fRE1aY/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "Speed drawing of carryminati | VARDAAN |",
+    "type": "youtube",
+    "videoId": "ZNHjfr1pdOc",
+    "duration": "4:30",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=ZNHjfr1pdOc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZNHjfr1pdOc",
+    "thumbUrl": "assets/thumbs/yt_ZNHjfr1pdOc.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/ZNHjfr1pdOc/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "'STOPPED '",
+    "type": "youtube",
+    "videoId": "dnAEjYPuJFQ",
+    "duration": "3:38",
+    "is_short": false,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=dnAEjYPuJFQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/dnAEjYPuJFQ",
+    "thumbUrl": "assets/thumbs/yt_dnAEjYPuJFQ.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/dnAEjYPuJFQ/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "Deku Drawing Process #deku #drawing| Procreate| My Hero Academia",
+    "type": "youtube",
+    "videoId": "Cfno7oJwp9g",
+    "duration": "Short",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=Cfno7oJwp9g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Cfno7oJwp9g",
+    "thumbUrl": "assets/thumbs/yt_Cfno7oJwp9g.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/Cfno7oJwp9g/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "drawing sounds",
+    "type": "youtube",
+    "videoId": "hY1dHXa_Gkk",
+    "duration": "Short",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=hY1dHXa_Gkk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hY1dHXa_Gkk",
+    "thumbUrl": "assets/thumbs/yt_hY1dHXa_Gkk.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/hY1dHXa_Gkk/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "I HAVE NO IDEA HOW THE HELL I MADE THIS",
+    "type": "youtube",
+    "videoId": "YMnSfjq8VYI",
+    "duration": "Short",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=YMnSfjq8VYI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/YMnSfjq8VYI",
+    "thumbUrl": "assets/thumbs/yt_YMnSfjq8VYI.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/YMnSfjq8VYI/hqdefault.jpg",
+    "section": "youtube"
+  },
+  {
+    "title": "Eren Jaeger Drawing #AOT",
+    "type": "youtube",
+    "videoId": "zKxho4JXQwg",
+    "duration": "Short",
+    "is_short": true,
+    "is_inspired": false,
+    "mediaUrl": "https://www.youtube.com/watch?v=zKxho4JXQwg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/zKxho4JXQwg",
+    "thumbUrl": "assets/thumbs/yt_zKxho4JXQwg.jpg",
+    "remoteThumbUrl": "https://i.ytimg.com/vi/zKxho4JXQwg/hqdefault.jpg",
+    "section": "youtube"
+  }
 ];
 
   let activeModalIndex = -1;
@@ -594,7 +855,17 @@
     }
 
     modalStage.innerHTML = '';
-    if (item.type === 'video') {
+    if (item.type === 'youtube') {
+      const frameWrap = document.createElement('div');
+      frameWrap.className = 'youtube-frame-wrapper';
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + item.videoId + '?autoplay=1&rel=0';
+      iframe.title = item.title;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      frameWrap.appendChild(iframe);
+      modalStage.appendChild(frameWrap);
+    } else if (item.type === 'video') {
       const vid = document.createElement('video');
       vid.src = item.mediaUrl;
       vid.controls = true;
@@ -609,6 +880,17 @@
       modalStage.appendChild(img);
     }
 
+    const ytAction = document.getElementById('modalYtAction');
+    if (ytAction) {
+      if (item.type === 'youtube') {
+        ytAction.style.display = 'block';
+        ytAction.innerHTML = '<a href="https://www.youtube.com/watch?v=' + item.videoId + '" target="_blank" rel="noopener noreferrer" class="btn-watch-yt"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg><span>Watch on YouTube ↗</span></a>';
+      } else {
+        ytAction.style.display = 'none';
+        ytAction.innerHTML = '';
+      }
+    }
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -616,6 +898,10 @@
   function closeModal() {
     modal.classList.remove('active');
     document.body.style.overflow = '';
+    const iframe = modalStage.querySelector('iframe');
+    if (iframe) {
+      iframe.src = '';
+    }
     const vid = modalStage.querySelector('video');
     if (vid) {
       vid.pause();
